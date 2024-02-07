@@ -1,0 +1,450 @@
+@media (min-width: 1420px) {
+  .container {
+    max-width: 1400px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .contact_item,
+  .info_element_block,
+  .txt_block {
+    font-size: 16px;
+  }
+
+  .nav-link {
+    font-size: 14px;
+  }
+
+  .element_img {
+    width: 90%;
+    height: 600px;
+  }
+
+  .element_img::after {
+    height: 670px;
+  }
+
+  .element_main_title {
+    font-size: 35px;
+  }
+
+  .element_row {
+    padding: 20px 0;
+    margin-bottom: 20px;
+  }
+
+  .element_sm_title {
+    font-size: 18px;
+  }
+
+  .sm_icon {
+    width: 50px;
+    height: 50px;
+  }
+
+  .fs_20 {
+    font-size: 18px;
+  }
+
+  .offer_block {
+    padding: 40px 0;
+  }
+
+  .gallery_txt_info {
+    padding: 30px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .gallery_img {
+    height: 290px;
+  }
+
+  .project_title {
+    font-size: 22px;
+  }
+
+  .statistic_section {
+    padding-bottom: 250px;
+  }
+
+  .element_image {
+    top: -200px;
+    width: 50%;
+    height: 600px;
+  }
+
+  .element_txt_side {
+    width: 70%;
+    padding: 30px 20px;
+  }
+
+  .team_img {
+    height: 400px;
+    margin-bottom: 20px;
+  }
+
+  .footer_contact {
+    padding-left: 40px;
+  }
+
+  .main_title {
+    font-size: 70px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .header_bottom {
+    padding: 15px 0;
+  }
+
+  .nav-item {
+    margin-right: 0;
+  }
+
+  .nav-link {
+    padding: 15px 0 !important;
+  }
+  .dropdown {
+    padding-bottom: 15px;
+  }
+  .dropdown:last-child {
+    padding-bottom: 0;
+  }
+  .lang_menu,
+  .lang_list {
+    padding: 0;
+  }
+  .lang_list li a {
+    padding: 5px 0;
+  }
+  .nav-link.active {
+    border-bottom: 2px solid var(--red-color);
+  }
+
+  .nav-link:hover {
+    border-bottom: 2px solid var(--red-color);
+  }
+
+  .element_img {
+    height: 500px;
+  }
+
+  .about_company_section {
+    margin-bottom: 0;
+  }
+
+  .element_img::after {
+    height: 550px;
+    border: 20px solid #000;
+    left: 50px;
+  }
+
+  .offer_block {
+    flex-direction: column;
+  }
+
+  .gallery_txt_info {
+    padding: 30px;
+  }
+
+  .number_item {
+    margin-bottom: 20px;
+    font-size: 35px;
+  }
+
+  .yellow_block {
+    padding: 45px 0;
+  }
+
+  .statistic_section,
+  .about_company_section,
+  .gallery_section {
+    padding: 35px 0;
+  }
+
+  .partners_section::after {
+    content: none;
+  }
+
+  .element_txt_side {
+    padding: 0;
+    width: 100%;
+  }
+
+  .info_element_block {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  .txt_block,
+  .info_element_block,
+  .gallery_section {
+    margin-bottom: 40px;
+  }
+
+  .element_main_title br {
+    display: none;
+  }
+
+  .element_main_title {
+    font-size: 30px;
+  }
+
+  .footer_list,
+  .footer_contact {
+    padding: 0;
+  }
+
+  .footer_list li {
+    padding-bottom: 15px;
+  }
+  .element_txt_side,
+  .partner_elements {
+    position: initial !important;
+  }
+  .search_sm {
+    right: initial;
+    left: 0;
+  }
+  .search_bar input {
+    padding-left: 40px;
+  }
+  .chat_btn {
+    right: 0;
+  }
+  .border_ {
+    padding: 20px 0;
+  }
+  .service_box {
+    padding: 15px;
+  }
+  .service_item {
+    font-size: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+  .send_btn {
+    font-size: 18px;
+  }
+  .border_right {
+    border: none;
+  }
+  .img_item {
+    height: 250px;
+    margin-bottom: 15px;
+  }
+  .project_txt {
+    margin-bottom: 50px;
+  }
+
+  .contact_elements_block {
+    width: 98%;
+  }
+  .map {
+    width: 40%;
+  }
+  .element_info_block {
+    width: 58%;
+  }
+  .contact_list {
+    width: 100%;
+  }
+  .result_quantity {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 991px) {
+  .hero_element {
+    height: 400px;
+  }
+
+  .element_block {
+    padding: 0px;
+  }
+  .element_info_section .element_block {
+    padding: 20px 0;
+  }
+  .list_block {
+    margin-bottom: 20px;
+  }
+  .main_title {
+    font-size: 50px;
+    margin-bottom: 50px;
+  }
+
+  .fs_20 {
+    font-size: 16px;
+  }
+
+  .position_info {
+    font-size: 14px;
+  }
+
+  .statistic_element {
+    font-size: 30px;
+  }
+
+  .team_img {
+    height: 300px;
+  }
+  .form_block {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .element_block {
+    flex-direction: column-reverse;
+  }
+  .fs_27 {
+    font-size: 22px;
+  }
+  .form_input {
+    width: 100%;
+    margin-bottom: 15px;
+    margin-right: 0;
+  }
+  .element_box {
+    padding: 20px;
+  }
+  .custom-file-upload,
+  .md_btn {
+    width: 100%;
+  }
+  .project_img {
+    height: 300px;
+  }
+  .contact_input input {
+    font-size: 14px;
+    padding: 15px 20px;
+  }
+  .project_txt {
+    margin-bottom: 40px;
+  }
+  .project_block .button_link {
+    width: 100%;
+  }
+  .project_title {
+    margin-bottom: 20px;
+  }
+  .news_item .img_item {
+    height: 350px;
+  }
+  .soc_items {
+    flex-direction: column;
+  }
+  .contact_info {
+    padding: 30px 0;
+  }
+  .map {
+    height: 300px;
+    margin-right: 0;
+  }
+  .element_info_block,
+  .map,
+  .red_btn,
+  .contact_elements_block {
+    width: 100%;
+  }
+  .bg_ img {
+    height: 250px;
+  }
+  .contact_elements_block {
+    position: initial !important;
+    left: initial;
+    transform: none;
+  }
+  .contact_info_box {
+    flex-direction: column-reverse;
+  }
+}
+@media (max-width: 767px) {
+  .main_title {
+    font-size: 50px;
+  }
+
+  .button_link {
+    padding: 20px 30px;
+  }
+
+  .element_info .button_link {
+    max-width: 100%;
+    padding: 20px 0;
+  }
+
+  .project_title {
+    font-size: 18px;
+    margin-bottom: 25px;
+  }
+
+  .gallery_img {
+    height: 270px;
+  }
+  .modal_element {
+    min-width: 100%;
+  }
+  .modal_element_content {
+    padding: 20px 0;
+  }
+  .modal-header {
+    padding: 0 15px 15px;
+  }
+  .modal-body {
+    padding: 15px;
+  }
+  .fs_27 {
+    font-size: 18px;
+  }
+  .back_btn {
+    width: 100%;
+  }
+  .contact_elements_block {
+    padding: 15px;
+  }
+  .contact_element,
+  .contact_txtarea textarea {
+    margin-bottom: 15px;
+  }
+  .contact_list {
+    flex-direction: column;
+  }
+  .contact_list li {
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 575px) {
+  .main_title {
+    font-size: 40px;
+  }
+  .main_title::before,
+  .main_title::after {
+    display: none;
+  }
+  .element_img {
+    height: 400px;
+    width: 80%;
+  }
+  .element_img::after {
+    height: 440px;
+    border: 10px solid #000;
+    left: 40px;
+  }
+  .element_main_title {
+    font-size: 25px;
+  }
+  .team_img img {
+    object-fit: contain;
+  }
+  .footer_list li {
+    font-size: 14px;
+  }
+  .list_item li {
+    margin-right: 20px;
+  }
+  .list_item {
+    overflow-x: scroll;
+    white-space: nowrap;
+  }
+}

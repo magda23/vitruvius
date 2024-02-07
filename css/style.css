@@ -1,0 +1,1132 @@
+html {
+  overflow-x: hidden !important;
+}
+
+body {
+  font-family: "BPG Mrgvlovani Caps 2010";
+  color: var(--dark-color);
+}
+:root {
+  --yellow: #f9d60a;
+  --bg-grey: #a8a8a8;
+  --grey-color: #a8a8a8;
+  --bg-color: #f2f3f6;
+  --grey: #747474;
+  --white-color: #fff;
+  --red-color: #e43e00;
+  --orange: #ff6620;
+  --orange-color: #ffb027;
+  --dark-color: #232323;
+  --transition: all 0.3s ease;
+}
+.img_fluid {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.chat_btn {
+  z-index: 999;
+  right: 150px;
+}
+.chat_icon {
+  width: 55px;
+  height: 55px;
+  background-color: #c2c2c2;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.chat_icon:hover {
+  background-color: #f0542d;
+}
+.modal_element {
+  float: right;
+  min-width: 600px;
+}
+.modal_element_content {
+  border-radius: 0;
+  padding: 70px 0 60px;
+  background-color: #fbfbfb;
+  border: none;
+  line-height: normal;
+}
+.modal_element_content .modal-title {
+  font-size: 20px;
+}
+.txt_area textarea {
+  height: 130px;
+}
+.modal-header {
+  padding: 0 50px;
+}
+
+.modal-body {
+  padding: 50px 50px 40px;
+}
+.contact_input {
+  position: relative;
+}
+.contact_input input {
+  width: 100%;
+  border: 1px solid #dfdfdf;
+  padding: 20px 30px;
+  border-radius: 5px;
+  font-family: "BPG Mrgvlovani";
+  font-size: 15px;
+}
+.required {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
+.txt_area textarea {
+  width: 100%;
+  height: 226px;
+  border: 1px solid #dfdfdf;
+  padding: 20px 30px;
+  resize: none;
+  font-family: "BPG Mrgvlovani";
+  font-family: "BPG Mrgvlovani";
+  font-size: 15px;
+}
+.send_btn {
+  width: 100%;
+  padding: 20px 0;
+  background-color: #000;
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.send_btn:hover {
+  background-color: var(--orange) !important;
+  color: var(--white-color);
+}
+.txt_area textarea:focus {
+  outline: none;
+}
+.main_logo {
+  width: 115px;
+  height: 88px;
+}
+.header_top {
+  background-color: var(--bg-grey);
+  padding: 15px 0;
+}
+.social_items li a i {
+  margin-right: 15px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: var(--white-color);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #a8a8a8;
+  -webkit-transition: var(--transition);
+  -o-transition: var(--transition);
+  transition: var(--transition);
+}
+.social_items li a i:hover {
+  background-color: var(--red-color);
+  color: var(--white-color);
+}
+.working_info {
+  color: var(--white-color);
+  font-size: 12px;
+}
+.header_main {
+  padding: 10px 0 15px;
+  border-bottom: 1px solid #efefef;
+}
+.contact_item {
+  font-size: 21px;
+}
+.contact_item p {
+  color: var(--grey-color);
+}
+.contact_item i {
+  color: var(--red-color);
+}
+
+.nav-link {
+  font-size: 18px;
+  color: var(--dark-color) !important;
+  padding: 30px 0 20px !important;
+}
+.nav-link.active {
+  border-bottom: 5px solid var(--red-color);
+  color: var(--red-color) !important;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.nav-link:hover {
+  border-bottom: 5px solid var(--red-color);
+  color: var(--red-color) !important;
+}
+
+.nav-item {
+  margin-right: 25px;
+}
+
+.nav-item:last-child {
+  margin-right: 0;
+}
+.dropdown-menu {
+  min-width: 100%;
+  width: 100%;
+}
+.lang_list {
+  border: none;
+}
+.lang_menu::after {
+  background-image: url("../img/arrow-down-short.svg");
+  border: none;
+  width: 10px;
+  height: 12px;
+  background-repeat: no-repeat;
+}
+.search_sm {
+  top: 3px;
+  right: 0;
+}
+.search_bar {
+  border: none;
+  background-color: #fff;
+  padding: 10px;
+  -webkit-filter: drop-shadow(0 0 4px rgba(0, 0, 0, 0.2));
+  filter: drop-shadow(0 0 4px rgba(0, 0, 0, 0.2));
+  border-radius: 0;
+}
+.search_bar input {
+  background-color: #f4f4f4;
+  border-radius: 0;
+  border: none;
+  width: 100%;
+  padding: 10px;
+}
+
+.search_btn::after {
+  content: none;
+}
+.search_bar {
+  min-width: 300px;
+  right: 0;
+  left: initial !important;
+}
+.search_block .search {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  -webkit-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+  z-index: 4;
+  -webkit-box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.4);
+}
+.search_block .search:hover {
+  cursor: pointer;
+}
+.search_block .search::before {
+  content: "";
+  position: absolute;
+  margin: auto;
+  top: 22px;
+  right: 0;
+  bottom: 0;
+  left: 22px;
+  width: 12px;
+  height: 2px;
+  background: #747474;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.search_block .search::after {
+  content: "";
+  position: absolute;
+  margin: auto;
+  top: -5px;
+  right: 0;
+  bottom: 0;
+  left: -5px;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: 2px solid #747474;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.search_block input {
+  font-family: "Inconsolata", monospace;
+  position: absolute;
+  margin: auto;
+  top: 60px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 50px;
+  height: 50px;
+  outline: none;
+  border: none;
+  background: crimson;
+  color: white;
+  text-shadow: 0 0 10px crimson;
+  padding: 0 80px 0 20px;
+  border-radius: 30px;
+  -webkit-box-shadow: 0 0 25px 0 crimson, 0 20px 25px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 25px 0 crimson, 0 20px 25px 0 rgba(0, 0, 0, 0.2);
+  -webkit-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+  opacity: 0;
+  z-index: 5;
+  font-weight: bolder;
+  letter-spacing: 0.1em;
+}
+.search_block input:hover {
+  cursor: pointer;
+}
+.search_block input:focus {
+  width: 300px;
+  opacity: 1;
+  cursor: text;
+}
+.search_block input:focus ~ .search {
+  right: -250px;
+  background: #151515;
+  z-index: 6;
+}
+.search_block input:focus ~ .search::before {
+  top: 0;
+  left: 0;
+  width: 25px;
+}
+.search_block input:focus ~ .search::after {
+  top: 0;
+  left: 0;
+  width: 25px;
+  height: 2px;
+  border: none;
+  background: white;
+  border-radius: 0%;
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+.search_block input::-webkit-input-placeholder {
+  color: white;
+  opacity: 0.5;
+  font-weight: bolder;
+}
+.search_block input::-moz-placeholder {
+  color: white;
+  opacity: 0.5;
+  font-weight: bolder;
+}
+.search_block input:-ms-input-placeholder {
+  color: white;
+  opacity: 0.5;
+  font-weight: bolder;
+}
+.search_block input::-ms-input-placeholder {
+  color: white;
+  opacity: 0.5;
+  font-weight: bolder;
+}
+.search_block input::placeholder {
+  color: white;
+  opacity: 0.5;
+  font-weight: bolder;
+}
+
+.btn {
+  border: none;
+}
+.btn:hover {
+  background-color: transparent;
+  border: none;
+}
+.btn-check:focus + .btn,
+.btn:focus {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: none;
+}
+.hero_element {
+  background-image: url("../img/tiler-working-renovation-apartment.png");
+  height: 460px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.element_block {
+  padding: 10px 0;
+  white-space: nowrap;
+  overflow-x: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.element_block::-webkit-scrollbar {
+  display: none;
+}
+
+.white_logo {
+  width: 212px;
+  height: 145px;
+  margin-bottom: 60px;
+}
+.main_title {
+  font-family: "Righteous";
+  font-size: 79px;
+  color: var(--white-color);
+  position: relative;
+  margin-bottom: 50px;
+}
+.main_title::before,
+.main_title::after {
+  width: 95px;
+  height: 95px;
+}
+.main_title::after {
+  position: absolute;
+  content: "";
+  background-image: url("../img/left_corner.svg");
+  left: -70px;
+  top: -30px;
+}
+.main_title::before {
+  position: absolute;
+  content: "";
+  background-image: url("../img/right_corner.svg");
+  right: -80px;
+  bottom: -30px;
+}
+.element_span {
+  font-family: "Rockwell";
+}
+.button_link {
+  color: var(--white-color);
+  padding: 30px 63px;
+  background-color: #000;
+  border-bottom: 5px solid #fff;
+  -webkit-transition: var(--transition);
+  -o-transition: var(--transition);
+  transition: var(--transition);
+  text-align: center;
+}
+.button_link:hover {
+  color: var(--orange-color);
+  background-color: var(--white-color);
+}
+.about_company_section {
+  padding: 60px 0 80px;
+  margin-bottom: 40px;
+}
+.info_element_block {
+  margin: 0 auto 80px;
+  color: var(--grey);
+  width: 948px;
+  line-height: normal;
+  font-size: 18px;
+  font-family: "BPG Mrgvlovani";
+}
+.element_img {
+  width: 585px;
+  height: 800px;
+  z-index: 1;
+}
+.element_img img {
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: center;
+  object-position: center;
+}
+.element_img::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 865px;
+  border: 30px solid #000;
+  top: 0;
+  left: 70px;
+  z-index: -1;
+}
+.element_txt {
+  color: var(--grey);
+  border-left: 3px solid var(--orange-color);
+  padding-left: 25px;
+}
+.element_main_title {
+  font-size: 50px;
+  font-family: "BPG Nino Mtavruli bd";
+  line-height: normal;
+  color: var(--dark-color);
+}
+.element_row {
+  padding: 40px 0;
+  border-top: 1px solid #efefef;
+  border-bottom: 1px solid #efefef;
+  margin-bottom: 40px;
+}
+.sm_icon {
+  width: 70px;
+  height: 70px;
+}
+.element_sm_title {
+  line-height: normal;
+  font-size: 30px;
+  font-family: "BPG Nino Mtavruli bd";
+  color: var(--dark-color);
+}
+.txt_block {
+  line-height: normal;
+  font-size: 18px;
+  font-family: "BPG Mrgvlovani";
+  color: var(--grey);
+  margin-bottom: 60px;
+}
+.element_info .button_link {
+  max-width: 253px;
+  padding: 30px 0;
+}
+.orange_effect:hover {
+  background-color: var(--orange-color);
+  color: var(--white-color);
+}
+.offer_section {
+  background-color: var(--bg-color);
+}
+.offer_title {
+  font-size: 50px;
+  font-family: "BPG Nino Mtavruli bd";
+}
+.offer_block {
+  padding: 95px 0;
+}
+.gallery_section {
+  background-image: url("../img/construction-silhouette.png");
+  height: 100%;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  padding: 75px 0 65px;
+}
+.gallery_section::after {
+  content: "";
+  background-color: rgba(23, 23, 23, 90%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.white_color {
+  color: var(--white-color);
+}
+.list_item li {
+  color: #d2d2d2;
+  margin-right: 50px;
+}
+.list_item li:last-child {
+  margin-right: 0;
+}
+.list_item li.active {
+  color: var(--orange-color);
+}
+.gallery_img {
+  width: 100%;
+  height: 356px;
+}
+.gallery_img img {
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: center;
+  object-position: center;
+}
+.gallery_txt_info {
+  color: var(--white-color);
+  background-color: rgba(200, 55, 0, 66%);
+  padding: 80px 35px 65px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: var(--transition);
+  -o-transition: var(--transition);
+  transition: var(--transition);
+}
+.gallery_img:hover .gallery_txt_info {
+  visibility: visible;
+  opacity: 1;
+}
+.project_title {
+  font-size: 26px;
+  font-family: "BPG Nino Mtavruli bd";
+  line-height: normal;
+  margin-bottom: 40px;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.project_txt_block {
+  border: 2px solid var(--white-color);
+  padding: 20px 10px;
+}
+.project_description {
+  font-size: 12px;
+  font-family: "BPG Mrgvlovani";
+  line-height: normal;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+}
+.button_ {
+  margin: 0 auto;
+  border: 1px solid var(--orange);
+  background-color: transparent;
+  width: 300px;
+  height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: var(--orange);
+  position: relative;
+  -webkit-transition: var(--transition);
+  -o-transition: var(--transition);
+  transition: var(--transition);
+}
+.button_::after {
+  content: "";
+  position: absolute;
+  bottom: 2px;
+  width: 100%;
+  height: 1px;
+  background-color: var(--orange);
+}
+.button_:hover {
+  background-color: var(--orange);
+  color: var(--white-color);
+}
+.statistic_section {
+  background-color: #f2f3f6;
+  padding: 45px 0 370px;
+}
+.yellow_block {
+  background-color: var(--yellow);
+  padding: 75px 0;
+}
+.statistic_element {
+  color: #fff;
+  font-size: 40px;
+  font-family: "BPG Nino Mtavruli bd";
+}
+.number_item {
+  font-size: 50px;
+  font-family: "Righteous";
+  margin-bottom: 30px;
+}
+.txt_item {
+  color: var(--white-color);
+  border-left: 3px solid var(--white-color);
+}
+.element_image {
+  width: 885px;
+  height: 833px;
+  top: -270px;
+  left: 0;
+}
+.element_txt_side {
+  width: 62%;
+  background-color: #fff;
+  right: 0;
+  top: -100px;
+  min-height: 744px;
+  padding: 50px 35px;
+  z-index: 2;
+}
+
+.partners_image {
+  width: 100%;
+  height: 100px;
+}
+.partners_image img {
+  border-radius: 59px;
+}
+.partners_section {
+  min-height: 700px;
+}
+.partners_section::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: -100px;
+  width: 50%;
+  background-color: var(--white-color);
+  height: 200px;
+  z-index: 1;
+}
+.btn_ {
+  padding: 0;
+  height: 90px;
+}
+.team_img {
+  width: 100%;
+  height: 598px;
+  margin-bottom: 40px;
+}
+.team_img img {
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: center;
+  object-position: center;
+}
+.fs_20 {
+  font-size: 20px;
+}
+.position_info {
+  color: var(--grey);
+}
+.footer_section {
+  background-image: url("../img/residential-house-process-building.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 40px 0;
+  z-index: 1;
+}
+.footer_section::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(23, 23, 23, 90%);
+  z-index: -1;
+}
+.footer_logo {
+  width: 160px;
+  height: 109px;
+  margin-bottom: 30px;
+}
+.footer_info .social_items li a i {
+  color: var(--white-color);
+  background-color: var(--red-color);
+}
+.copyright {
+  font-size: 14px;
+  line-height: normal;
+  color: var(--white-color);
+}
+.footer_list {
+  padding-top: 30px;
+}
+.footer_list li {
+  padding-bottom: 25px;
+}
+.footer_contact {
+  padding-left: 70px;
+  line-height: normal;
+}
+.footer_list i {
+  color: var(--red-color);
+  margin-right: 20px;
+}
+/*company*/
+.bg_section {
+  height: 178px;
+}
+.bg_section img {
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: center;
+  object-position: center;
+}
+.border_ {
+  border-top: 1px solid #efefef;
+  border-bottom: 1px solid #efefef;
+  padding: 40px 0;
+}
+.partners_inside::after {
+  content: none;
+}
+.partners_inside .element_image {
+  top: 0;
+  left: -120px;
+}
+.partners_inside .element_txt_side {
+  float: right;
+  position: relative;
+  top: initial;
+  min-height: auto;
+  margin-top: 150px;
+}
+.element_info_section {
+  background-color: #f8f8f8;
+  -webkit-box-shadow: inset 0 3px 6px rgba(0, 0, 0, 8%);
+  box-shadow: inset 0 3px 6px rgba(0, 0, 0, 8%);
+}
+.list_block {
+  flex-wrap: wrap;
+  line-height: normal;
+}
+.list_block li a {
+  position: relative;
+  padding-right: 10px;
+}
+.list_block li {
+  padding-left: 10px;
+  font-family: "BPG Mrgvlovani";
+}
+.list_block li:first-child {
+  padding-left: 0;
+}
+.list_block li a::before {
+  content: "/";
+  position: absolute;
+  right: -4px;
+}
+.element_info_section .element_block {
+  padding: 50px 0;
+}
+.fs_27 {
+  font-size: 27px;
+}
+.element_info {
+  margin-bottom: 70px;
+  font-family: "BPG Mrgvlovani";
+  line-height: normal;
+  color: var(--grey);
+}
+.element_box {
+  padding: 40px 40px 50px;
+  background-color: #f8f8f8;
+}
+
+.form_input {
+  height: 60px;
+  margin-right: 20px;
+}
+.name_input {
+  width: 400px;
+  font-family: "BPG Mrgvlovani";
+}
+.sm_input {
+  width: 186px;
+}
+.form_input input {
+  width: 100%;
+  height: 100%;
+  padding: 15px;
+  border: 1px solid #cecece;
+}
+.form_input input[type="file"] {
+  display: none;
+}
+.custom-file-upload {
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+  width: 390px;
+  height: 100%;
+  background-color: #e43e00;
+  color: var(--white-color);
+}
+.md_btn {
+  width: 280px;
+}
+.md_btn,
+.custom-file-upload,
+.form_input input {
+  border-radius: 5px;
+  font-size: 16px;
+}
+.service_box {
+  padding: 40px;
+  background-color: #f8f8f8;
+}
+.service_item {
+  font-size: 23px;
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+  border-bottom: 1px solid #dedede;
+  line-height: normal;
+}
+.service_item:last-child {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  border: none;
+}
+.service_item.active {
+  color: var(--orange-color);
+}
+.service_item p {
+  max-width: 290px;
+}
+.service_title,
+.service_item {
+  font-family: "BPG Nino Mtavruli bd";
+}
+.service_title {
+  font-size: 18px;
+}
+.sm_txt {
+  font-size: 10px;
+  font-family: "BPG Mrgvlovani";
+  line-height: normal;
+}
+.project_img {
+  width: 100%;
+  height: 455px;
+}
+.border_bottom {
+  border-bottom: 1px solid #efefef;
+}
+.element_sm_title {
+  max-width: 380px;
+}
+.img_item {
+  height: 330px;
+  width: 100%;
+}
+.border_right {
+  border-right: 1px solid #cfcfcf;
+}
+.img_item img {
+  border-radius: 10px;
+}
+.date_ {
+  width: 105px;
+  height: 82px;
+  background-color: #000;
+  color: var(--white-color);
+  font-size: 14px;
+  line-height: normal;
+  padding: 0 10px;
+  top: 40px;
+  right: 0;
+}
+.project_txt {
+  font-size: 14px;
+  color: #676767;
+  font-family: "BPG Mrgvlovani";
+  line-height: normal;
+  margin-bottom: 90px;
+}
+.project_block .button_link {
+  width: 255px;
+}
+.border_top {
+  border-top: 1px solid #cfcfcf;
+}
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  color: var(--grey) !important;
+}
+
+.pagination a.active {
+  color: var(--red-color) !important;
+}
+.pagination i {
+  color: #000;
+}
+.yellow_bg:hover {
+  background-color: #ffb027;
+  color: var(--white-color);
+}
+.news_item .date_ {
+  bottom: 40px;
+  top: initial;
+  left: 0;
+  right: initial;
+}
+.news_item .img_item {
+  height: 430px;
+  margin-bottom: 35px;
+}
+.back_btn {
+  background-color: #000;
+  width: 233px;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: var(--white-color);
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.back_btn i,
+.more_info i {
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.back_btn:hover i {
+  -webkit-transform: translate(-10px);
+  -ms-transform: translate(-10px);
+  transform: translate(-10px);
+}
+.share_item .social_items li a i {
+  background-color: var(--grey);
+  color: var(--white-color);
+}
+.share_item .social_items li a i:hover {
+  background-color: var(--red-color);
+}
+.share_item p {
+  color: var(--red-color);
+}
+.news_box .img_item {
+  height: 220px;
+  margin-bottom: 30px;
+}
+.news_box .project_title {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+.more_info {
+  color: var(--red-color);
+}
+.more_info:hover i {
+  -webkit-transform: translate(10px);
+  -ms-transform: translate(10px);
+  transform: translate(10px);
+}
+.contact_info {
+  padding: 250px 0 100px;
+}
+.contact_list {
+  width: 950px;
+  margin: 0 auto;
+  line-height: normal;
+}
+.contact_list li {
+  max-width: 335px;
+  font-size: 14px;
+}
+.contact_list li i {
+  font-size: 18px;
+  color: #646464;
+}
+.map {
+  width: 400px;
+  height: 539px;
+  margin-right: 50px;
+}
+.contact_elements_block {
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 5px;
+  width: 1168px;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+  -ms-transform: translate(-50%);
+  transform: translate(-50%);
+  bottom: -200px;
+  -webkit-box-shadow: 0 3px 40px rgba(0, 0, 0, 9%);
+  box-shadow: 0 3px 40px rgba(0, 0, 0, 9%);
+}
+.element_info_block {
+  width: 615px;
+}
+.contact_element input {
+  width: 100%;
+  height: 60px;
+  background-color: #efefef;
+  border: none;
+  padding: 15px;
+}
+.contact_element,
+.contact_txtarea textarea {
+  margin-bottom: 30px;
+  font-size: 12px;
+  font-family: "BPG Mrgvlovani";
+}
+.contact_txtarea textarea {
+  width: 100%;
+  height: 165px;
+  background-color: #efefef;
+  padding: 15px;
+  border: none;
+  resize: none;
+}
+textarea:focus {
+  outline: none;
+}
+.red_btn {
+  border-radius: 5px;
+  font-size: 16px;
+  width: 207px;
+  border: none;
+}
+.red_btn:hover {
+  background-color: var(--red-color);
+  color: var(--white-color);
+}
+.bg_ img {
+  height: 555px;
+  width: 100%;
+}
+.gallery_title {
+  font-size: 20px;
+  margin-bottom: 35px;
+}
+.desciption_info {
+  margin-bottom: 50px;
+  font-size: 14px;
+}
+.gallery_title,
+.desciption_info {
+  font-family: "BPG Mrgvlovani";
+  color: var(--grey);
+  line-height: normal;
+}
+.desciption_info p {
+  margin-bottom: 20px;
+}

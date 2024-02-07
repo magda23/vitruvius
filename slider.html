@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="cache-control" content="no-cache" />
+    <meta http-equiv="expires" content="0" />
+    <meta http-equiv="pragma" content="no-cache" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="google-site-verification" content="" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>VITRUVIUS</title>
+    <link rel="stylesheet" href="plugin/swiperSlider/css/swiper.min.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="plugin/bootstrap-5.2.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      text="text/css"
+      href="plugin/fontawesome/css/all.min.css"
+    />
+    <link rel="stylesheet" text="text/css" href="css/fonts.css" />
+    <link rel="stylesheet" text="text/css" href="css/reset.css" />
+    <link rel="stylesheet" href="css/select.css" />
+    <link rel="stylesheet" text="text/css" href="css/style.css?v=1" />
+    <link rel="stylesheet" text="text/css" href="css/responsive.css?v=1" />
+  </head>
+
+  <body>
+    <button
+      type="button"
+      class="btn chat_btn position-fixed"
+      data-bs-toggle="modal"
+      data-bs-target="#exampleModal"
+    >
+      <div
+        class="chat_icon rounded-circle d-flex align-items-center justify-content-center"
+      >
+        <img src="img/chat-dots.svg" alt="" />
+      </div>
+    </button>
+    <div
+      class="modal fade pe-0"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal_element m-0">
+        <div class="modal-content modal_element_content">
+          <div
+            class="modal-header d-flex justify-content-between align-items-center pb-lg-5"
+          >
+            <h5 class="modal-title" id="exampleModalLabel">დაგვიკავშირდით</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p class="mb-4">შეავსეთ ველები და მოგვწერეთ თქვენი კომენტარი.</p>
+            <form>
+              <div class="contact_input mb-4">
+                <input type="text" placeholder="სახელი, გვარი" />
+                <div class="required">*</div>
+              </div>
+              <div class="contact_input mb-4">
+                <input type="text" placeholder="ელ.ფოსტა" />
+                <div class="required">*</div>
+              </div>
+              <div class="contact_input mb-4">
+                <input type="text" placeholder="ტელეფონი" />
+              </div>
+              <div class="contact_input mb-4">
+                <input type="text" placeholder="კომპანია" />
+              </div>
+              <div class="txt_area mb-4">
+                <textarea placeholder="თქვენი მესიჯი..."></textarea>
+              </div>
+              <button
+                type="button"
+                class="btn send_btn"
+                data-bs-dismiss="modal"
+              >
+                გაგზავნა
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <header>
+      <div class="header_top">
+        <div class="container">
+          <div class="d-flex align-items-center justify-content-between">
+            <ul class="social_items d-flex align-items-center">
+              <li>
+                <a href="#">
+                  <i class="fa-brands fa-facebook-f"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa-brands fa-youtube"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+              </li>
+            </ul>
+            <div class="working_info d-flex align-items-center">
+              <i class="fa-regular fa-clock"></i>
+              <p class="ms-2">ორშ-პარ: 10:00 - 18:00</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header_main d-xl-block d-none">
+        <div class="container">
+          <div class="d-flex align-items-center justify-content-between">
+            <a href="index.html">
+              <div class="main_logo">
+                <img src="img/logo.svg" alt="" class="img_fluid" />
+              </div>
+            </a>
+            <div class="d-flex contant_info">
+              <a href="tel:+995 587 00 52 52">
+                <div class="contact_item d-flex">
+                  <i class="fa-sharp fa-solid fa-phone"></i>
+                  <p class="ms-3">587 00 52 52</p>
+                </div>
+              </a>
+              <a href="mailto:info@mail.ge">
+                <div class="contact_item d-flex ms-xl-5 ms-3">
+                  <i class="fa-regular fa-envelope"></i>
+                  <p class="ms-3">info@mail.ge</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header_bottom">
+        <div class="container">
+          <nav class="navbar navbar-expand-xl p-0">
+            <a href="index.html">
+              <div class="sm_logo d-xl-none d-block">
+                <img src="img/logo.svg" alt="" class="img_fluid" />
+              </div>
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >მთავარი</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">კომპანიის შესახებ</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">სერვისები</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">პარტნიორები</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">სიახლეები</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">კარიერა</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">კონტაქტი</a>
+                </li>
+              </ul>
+              <div class="dropdown">
+                <button
+                  type="button"
+                  class="btn dropdown-toggle search_btn ps-lg-3 p-0 d-flex align-items-center justify-content-center"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  data-bs-auto-close="outside"
+                >
+                  <img src="img/search.svg" alt="" />
+                </button>
+                <form class="dropdown-menu search_bar">
+                  <div class="position-relative">
+                    <input
+                      type="password"
+                      id="exampleDropdownFormPassword2"
+                      placeholder="Search"
+                    />
+                    <button
+                      type="submit"
+                      class="btn position-absolute search_sm"
+                    >
+                      <img src="img/search.svg" alt="" />
+                    </button>
+                  </div>
+                </form>
+              </div>
+
+              <div class="dropdown">
+                <button
+                  class="btn dropdown-toggle d-flex align-items-center lang_menu"
+                  type="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  GE
+                </button>
+                <ul class="dropdown-menu lang_list">
+                  <li><a class="dropdown-item" href="#">EN</a></li>
+                  <li><a class="dropdown-item" href="#">RU</a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main>
+      <style>
+        .s2 {
+          height: 400px;
+          margin-bottom: 10px;
+        }
+        .slide_img {
+          height: 100%;
+          width: 100%;
+        }
+        .slide_img img {
+          object-fit: cover;
+          object-position: center;
+        }
+        .s1 {
+          height: 200px;
+        }
+        .swiper-button-next:after,
+        .swiper-button-prev:after {
+          color: #ff6620;
+        }
+        @media (max-width: 767px) {
+          .s2 {
+            height: 250px;
+            margin-bottom: 10px;
+          }
+          .s1 {
+            height: 120px;
+          }
+          .swiper-button-next:after,
+          .swiper-button-prev:after {
+            font-size: 25px;
+          }
+        }
+      </style>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <div class="swiper s2">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="slide_img">
+                    <img src="img/work.png" class="img_fluid" />
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="slide_img">
+                    <img
+                      src="img/carpenter-man-working-roof.png"
+                      alt=""
+                      class="img_fluid"
+                    />
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="slide_img">
+                    <img src="img/work.png" class="img_fluid" />
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="slide_img">
+                    <img
+                      src="img/carpenter-man-working-roof.png"
+                      alt=""
+                      class="img_fluid"
+                    />
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="slide_img">
+                    <img src="img/work.png" class="img_fluid" />
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="slide_img">
+                    <img
+                      src="img/carpenter-man-working-roof.png"
+                      alt=""
+                      class="img_fluid"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+            </div>
+            <div thumbsSlider="" class="swiper s1">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="slide_img">
+                    <img src="img/work.png" class="img_fluid" />
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="slide_img">
+                    <img
+                      src="img/carpenter-man-working-roof.png"
+                      alt=""
+                      class="img_fluid"
+                    />
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="slide_img">
+                    <img src="img/work.png" class="img_fluid" />
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="slide_img">
+                    <img
+                      src="img/carpenter-man-working-roof.png"
+                      alt=""
+                      class="img_fluid"
+                    />
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="slide_img">
+                    <img src="img/work.png" class="img_fluid" />
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="slide_img">
+                    <img
+                      src="img/carpenter-man-working-roof.png"
+                      alt=""
+                      class="img_fluid"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <section class="footer_section position-relative">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 mb-lg-0 mb-4">
+              <div class="footer_info">
+                <a href="index.html">
+                  <div class="footer_logo">
+                    <img src="img/logo_.svg" alt="" class="img_fluid" />
+                  </div>
+                </a>
+                <ul class="social_items d-flex align-items-center mb-4">
+                  <li>
+                    <a href="#">
+                      <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="fa-brands fa-instagram"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i class="fa-brands fa-youtube"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+                  </li>
+                </ul>
+                <div class="copyright">
+                  <p class="mb-2">Copyright © 2022 Vitruvius.ge</p>
+                  <p>Created by Proservice</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-5 mb-lg-0 mb-4">
+              <div class="row">
+                <div class="col-lg-6">
+                  <ul class="footer_list white_color">
+                    <li>
+                      <a href="#">კომპანიის შესახებ</a>
+                    </li>
+                    <li>
+                      <a href="#">სერვისები</a>
+                    </li>
+                    <li>
+                      <a href="#">პარტნიორები</a>
+                    </li>
+                    <li>
+                      <a href="#">სიახლეები</a>
+                    </li>
+                    <li>
+                      <a href="#">კარიერა</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-lg-6">
+                  <ul class="footer_list white_color">
+                    <li>
+                      <a href="#">ფოტო გალერეა</a>
+                    </li>
+                    <li>
+                      <a href="#">ვიდეო გალერეა</a>
+                    </li>
+                    <li>
+                      <a href="#">პროექტები მიმდინარე</a>
+                    </li>
+                    <li>
+                      <a href="#">პროექტები დასრულებული</a>
+                    </li>
+                    <li>
+                      <a href="#">კონტაქტი</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="footer_contact border-lg-start">
+                <ul class="footer_list white_color">
+                  <li class="d-flex">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>თბილისი, 0186, ვაჟა-ფშაველას გამზ. 70ბ, II სართული</p>
+                  </li>
+                  <li class="d-flex">
+                    <i class="fa-solid fa-phone"></i>
+                    <p>587 00 52 52</p>
+                  </li>
+                  <li class="d-flex">
+                    <i class="fa-solid fa-envelope"></i>
+                    <p>info@mail.ge</p>
+                  </li>
+                  <li class="d-flex">
+                    <i class="fa-solid fa-clock"></i>
+                    <p>ორშ-პარ: 10:00 - 18:00</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </footer>
+
+    <!-- scripts -->
+    <script src="plugin/swiperSlider/js/swiper.min.js"></script>
+    <script src="plugin/jQuery/jquery-3.4.1.min.js"></script>
+    <script src="plugin/bootstrap-5.2.0/js/popper.min.js"></script>
+    <script src="plugin/bootstrap-5.2.0/js/bootstrap.min.js"></script>
+    <script src="js/app.js?v=1"></script>
+  </body>
+</html>
